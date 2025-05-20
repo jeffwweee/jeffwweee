@@ -49,7 +49,7 @@ I'm continuously expanding my knowledge in:
 ## 📫 Connect With Me
 
 - LinkedIn: [Jeffrey Chong](https://www.linkedin.com/in/jeffwweee/)
-- Email: [Your Email - if you want to share it]
+- Email: jeffreyjae96@gmail.com
 
 ---
 
