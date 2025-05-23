@@ -100,6 +100,32 @@ export const heroStyles: Record<string, SxProps<Theme>> = {
     },
     ctaButton: {
         background: 'linear-gradient(135deg, #7E8283 0%, #EEB5AB 100%)',
-        
+        color: '#F5E8E3',
+        border: 'none',
+        borderRadius: '12px',
+        padding: '16px 32px',
+        fontSize: '1.1rem',
+        fontWeight: 600,
+        cursor: 'pointer',
+        transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2 1)',
+        textTransform: 'none',
+        boxShadow: '0 8px 25px rgba(238, 181, 171, 0.3)',
+        position: 'relative',
+        overflow: 'hidden',
+        '&:hover': {
+            transform: 'translateY(-3px)',
+            boxShadow: '0 12px 35px rgba(238, 181, 171, 0.4)',
+            background: 'linear-gradient(135deg, #EEB5AB 0%, #E17557 100%)',
+        },
+        '&:active': {
+            transform: 'translateY(-1px)',
+        },
+        '&:focus-visible': {
+            outline: '2px solid #EEB5AB',
+            outlineOffset: '2px',
+        },
+    },
+    catButtonOutlined: {
+        background: 'transparent',
     }
 }
